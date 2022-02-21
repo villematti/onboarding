@@ -20,7 +20,6 @@ export const fetchTasks = async (userId: number) => {
         });
         return currentTask;
     });
-    return data.filter(t => t.userId === userId);
 }
 
 export const updateTask = async (task: ITaskModel) => {
