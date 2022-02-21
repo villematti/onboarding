@@ -1,0 +1,17 @@
+@import './../../assets/variables.scss';
+
+.hasCursor {
+    cursor: pointer;
+}
+
+.wrapper {
+    margin: $itemMargin;
+    background-color: white;
+    display: flex;
+    align-items: flex-start;
+    border: none;
+}
+
+.icon {
+    margin-right: 5px;
+}

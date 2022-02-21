@@ -1,0 +1,11 @@
+@import './assets/variables.scss';
+
+.wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.link {
+    margin: $itemMargin;
+}
